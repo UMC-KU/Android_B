@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/activity_main.xml" value="0.36822916666666666" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/activity_song.xml" value="0.36822916666666666" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/menu/bottom_nav_menu.xml" value="0.36822916666666666" />
         <entry key="..\:/AndroidStudioProjects/UMC_Android/flo_clone/app/src/main/res/layout/activity_main.xml" value="0.26313405797101447" />
         <entry key="..\:/AndroidStudioProjects/UMC_Android/flo_clone/app/src/main/res/layout/fragment_home.xml" value="0.264" />
         <entry key="..\:/AndroidStudioProjects/UMC_Android/flo_clone/app/src/main/res/layout/fragment_locker.xml" value="0.26313405797101447" />
@@ -19,6 +22,9 @@
         <entry key="..\:/Users/jungwoo/AndroidStudioProjects/FLO/app/src/main/res/layout/fragment_look.xml" value="0.1" />
         <entry key="..\:/Users/jungwoo/AndroidStudioProjects/FLO/app/src/main/res/layout/fragment_search.xml" value="0.1" />
         <entry key="..\:/Users/jungwoo/AndroidStudioProjects/FLO/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
+        <entry key="..\:/Users/wkdxo/Desktop/Study/Android_B/Android_B/dilan/flo_clone/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/wkdxo/Desktop/Study/Android_B/Android_B/dilan/flo_clone/app/src/main/res/layout/activity_song.xml" value="0.4714285714285714" />
+        <entry key="..\:/Users/wkdxo/Desktop/Study/Android_B/Android_B/dilan/flo_clone/app/src/main/res/layout/fragment_album.xml" value="0.36256410256410254" />
         <entry key="..\:/Users/wkdxo/Desktop/Study/Android_B/dilan/flo_clone/app/src/main/res/drawable-v24/textview_background_select_color_radius.xml" value="0.2855" />
         <entry key="..\:/Users/wkdxo/Desktop/Study/Android_B/dilan/flo_clone/app/src/main/res/drawable/button_background_flo_color.xml" value="0.342" />
         <entry key="..\:/Users/wkdxo/Desktop/Study/Android_B/dilan/flo_clone/app/src/main/res/layout/activity_main.xml" value="0.25" />
