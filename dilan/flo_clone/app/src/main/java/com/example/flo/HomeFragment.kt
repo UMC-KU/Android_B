@@ -18,6 +18,15 @@ class HomeFragment : Fragment() {
     ): View? {
         binding = FragmentHomeBinding.inflate(inflater, container, false)
 
+        binding.homeTodayNewSongAlbum01Iv.setOnClickListener{
+            (context as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.main_frm, AlbumFragment()).commitAllowingStateLoss()
+        }
+
+        binding.homeTodayNewSongAlbum02Iv.setOnClickListener{
+            (context as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.main_frm, AlbumFragment()).commitAllowingStateLoss()
+        }
+
+
         return binding.root
     }
 }
