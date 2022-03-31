@@ -171,7 +171,7 @@
 
 
         <HorizontalScrollView
-            android:id="@+id/home_panel_today_new_song_sv"
+            android:id="@+id/home_panel_today_new_song_hs"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -340,6 +340,19 @@
         </HorizontalScrollView>
 
 
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/home_banner_vp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="15dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/home_panel_today_new_song_hs"
+            />
+
+
+
         <TextView
             android:id="@+id/home_daily_podcast_title_tv"
             android:layout_width="wrap_content"
@@ -351,7 +364,7 @@
             android:textSize="25sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/home_panel_today_new_song_sv" />
+            app:layout_constraintTop_toBottomOf="@id/home_banner_vp" />
 
 
         <HorizontalScrollView
@@ -569,7 +582,6 @@
             </LinearLayout>
 
         </HorizontalScrollView>
-
 
         <ImageView
             android:id="@+id/home_banner_iv"
