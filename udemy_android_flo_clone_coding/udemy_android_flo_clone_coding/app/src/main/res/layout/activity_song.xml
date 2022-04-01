@@ -143,7 +143,7 @@
        app:layout_constraintBottom_toBottomOf="parent"
        app:layout_constraintStart_toStartOf="parent"
        app:layout_constraintEnd_toEndOf="parent"
-       android:visibility="gone"/>
+       android:visibility="invisible"/>
 
    <ImageView
       android:id="@+id/song_btn_skip_pre_iv"
