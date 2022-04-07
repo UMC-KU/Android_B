@@ -16,6 +16,24 @@
             app:layout_constraintTop_toTopOf="parent" />
 
 
+        <com.tbuonomo.viewpagerdotsindicator.SpringDotsIndicator
+            android:id="@+id/spring_dots_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            app:dampingRatio="0.5"
+            app:dotsColor="@color/flo"
+            app:dotsCornerRadius="10dp"
+            app:dotsSize="12dp"
+            app:dotsSpacing="6dp"
+            app:dotsStrokeColor="@color/gray_color"
+            app:dotsStrokeWidth="2dp"
+            app:layout_constraintBottom_toTopOf="@+id/home_panel_today_new_song_tv"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/home_panel_vp"
+            app:stiffness="300" />
+
         <TextView
             android:id="@+id/home_panel_today_new_song_tv"
             android:layout_width="wrap_content"
@@ -236,6 +254,7 @@
 
             </LinearLayout>
         </HorizontalScrollView>
+
 
 
         <androidx.viewpager2.widget.ViewPager2
