@@ -15,7 +15,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginTop="30dp"
-        android:padding="5dp"
+        android:padding="20dp"
         />
     <TextView
         android:id="@+id/search_pannel_search_tv"
@@ -41,259 +41,257 @@
     <ScrollView
         android:id="@+id/search_pannel_popular_keywords_sv"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         app:layout_constraintStart_toStartOf="@id/search_pannel_search_tv"
         app:layout_constraintTop_toBottomOf="@id/search_pannel_search_tv"
-        android:paddingBottom="140dp">
+        >
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            >
+            android:layout_height="wrap_content">
+
             <TextView
                 android:id="@+id/search_pannel_popular_keywords_tv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="급상승 검색어"
-                android:textSize="20sp"
-                android:textColor="@color/black"
-                android:textStyle="bold"
-
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
                 android:layout_marginStart="20dp"
                 android:layout_marginBottom="10dp"
                 android:paddingTop="10dp"
-            />
+                android:text="급상승 검색어"
+
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
             <TextView
                 android:id="@+id/search_pannel_time_standard_tv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="2022. 03. 25 01:00 기준"
-                android:textSize="10sp"
-                android:textColor="@color/gray_color"
-                android:paddingTop="10dp"
                 android:layout_marginEnd="20dp"
+                android:paddingTop="10dp"
+                android:text="2022. 03. 25 01:00 기준"
+                android:textColor="@color/gray_color"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toBottomOf="@id/search_pannel_popular_keywords_tv"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="@id/search_pannel_popular_keywords_tv"
-                app:layout_constraintBottom_toBottomOf="@id/search_pannel_popular_keywords_tv"
 
                 />
 
             <TextView
                 android:id="@+id/search_pannel_rank1_tv"
-                android:layout_height="wrap_content"
                 android:layout_width="40dp"
-                android:textAlignment="center"
-                android:text="1"
-                android:textColor="@color/flo"
-                android:padding="10dp"
-                android:textSize="20sp"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:text="1"
+                android:textAlignment="center"
+                android:textColor="@color/flo"
+                android:textSize="20sp"
 
 
                 app:layout_constraintStart_toStartOf="@id/search_pannel_popular_keywords_tv"
-                app:layout_constraintTop_toBottomOf="@id/search_pannel_popular_keywords_tv"
-                />
+                app:layout_constraintTop_toBottomOf="@id/search_pannel_popular_keywords_tv" />
+
             <TextView
                 android:id="@+id/search_pannel_rank2_tv"
-                android:textAlignment="center"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:text="2"
-                android:textColor="@color/flo"
                 android:padding="10dp"
+                android:text="2"
+                android:textAlignment="center"
+                android:textColor="@color/flo"
                 android:textSize="20sp"
 
                 app:layout_constraintStart_toStartOf="@id/search_pannel_rank1_tv"
-                app:layout_constraintTop_toBottomOf="@id/search_pannel_rank1_tv"
-                />
+                app:layout_constraintTop_toBottomOf="@id/search_pannel_rank1_tv" />
+
             <TextView
                 android:id="@+id/search_pannel_rank3_tv"
-                android:textAlignment="center"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:text="3"
-                android:textColor="@color/flo"
                 android:padding="10dp"
+                android:text="3"
+                android:textAlignment="center"
+                android:textColor="@color/flo"
                 android:textSize="20sp"
 
                 app:layout_constraintStart_toStartOf="@id/search_pannel_rank2_tv"
-                app:layout_constraintTop_toBottomOf="@id/search_pannel_rank2_tv"
-                />
+                app:layout_constraintTop_toBottomOf="@id/search_pannel_rank2_tv" />
+
             <TextView
                 android:id="@+id/search_pannel_rank4_tv"
-                android:textAlignment="center"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:text="4"
-                android:textColor="@color/flo"
                 android:padding="10dp"
+                android:text="4"
+                android:textAlignment="center"
+                android:textColor="@color/flo"
                 android:textSize="20sp"
 
                 app:layout_constraintStart_toStartOf="@id/search_pannel_rank3_tv"
-                app:layout_constraintTop_toBottomOf="@id/search_pannel_rank3_tv"
-                />
+                app:layout_constraintTop_toBottomOf="@id/search_pannel_rank3_tv" />
+
             <TextView
                 android:id="@+id/search_pannel_rank5_tv"
-                android:textAlignment="center"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:text="5"
-                android:textColor="@color/flo"
                 android:padding="10dp"
+                android:text="5"
+                android:textAlignment="center"
+                android:textColor="@color/flo"
                 android:textSize="20sp"
 
                 app:layout_constraintStart_toStartOf="@id/search_pannel_rank4_tv"
-                app:layout_constraintTop_toBottomOf="@id/search_pannel_rank4_tv"
-                />
+                app:layout_constraintTop_toBottomOf="@id/search_pannel_rank4_tv" />
+
             <TextView
                 android:id="@+id/search_pannel_rank6_tv"
-                android:textAlignment="center"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:text="6"
-                android:textColor="@color/flo"
                 android:padding="10dp"
+                android:text="6"
+                android:textAlignment="center"
+                android:textColor="@color/flo"
                 android:textSize="20sp"
 
                 app:layout_constraintStart_toStartOf="@id/search_pannel_rank5_tv"
-                app:layout_constraintTop_toBottomOf="@id/search_pannel_rank5_tv"
-                />
+                app:layout_constraintTop_toBottomOf="@id/search_pannel_rank5_tv" />
+
             <TextView
                 android:id="@+id/search_pannel_rank7_tv"
-                android:textAlignment="center"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:text="7"
-                android:textColor="@color/flo"
                 android:padding="10dp"
+                android:text="7"
+                android:textAlignment="center"
+                android:textColor="@color/flo"
                 android:textSize="20sp"
 
                 app:layout_constraintStart_toStartOf="@id/search_pannel_rank6_tv"
-                app:layout_constraintTop_toBottomOf="@id/search_pannel_rank6_tv"
-                />
+                app:layout_constraintTop_toBottomOf="@id/search_pannel_rank6_tv" />
+
             <TextView
                 android:id="@+id/search_pannel_rank8_tv"
-                android:textAlignment="center"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:text="8"
-                android:textColor="@color/flo"
                 android:padding="10dp"
+                android:text="8"
+                android:textAlignment="center"
+                android:textColor="@color/flo"
                 android:textSize="20sp"
 
                 app:layout_constraintStart_toStartOf="@id/search_pannel_rank7_tv"
-                app:layout_constraintTop_toBottomOf="@id/search_pannel_rank7_tv"
-                />
+                app:layout_constraintTop_toBottomOf="@id/search_pannel_rank7_tv" />
+
             <TextView
                 android:id="@+id/search_pannel_rank9_tv"
-                android:textAlignment="center"
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
-                android:text="9"
-                android:textColor="@color/flo"
                 android:padding="10dp"
+                android:text="9"
+                android:textAlignment="center"
+                android:textColor="@color/flo"
                 android:textSize="20sp"
 
                 app:layout_constraintStart_toStartOf="@id/search_pannel_rank8_tv"
-                app:layout_constraintTop_toBottomOf="@id/search_pannel_rank8_tv"
-                />
+                app:layout_constraintTop_toBottomOf="@id/search_pannel_rank8_tv" />
+
             <TextView
                 android:id="@+id/search_pannel_rank10_tv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:padding="10dp"
                 android:text="10"
                 android:textColor="@color/flo"
-                android:padding="10dp"
                 android:textSize="20sp"
 
                 app:layout_constraintStart_toStartOf="@id/search_pannel_rank9_tv"
-                app:layout_constraintTop_toBottomOf="@id/search_pannel_rank9_tv"
-                />
+                app:layout_constraintTop_toBottomOf="@id/search_pannel_rank9_tv" />
+
             <TextView
                 android:id="@+id/search_pannel_rank11_tv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:padding="10dp"
                 android:text="11"
                 android:textColor="@color/flo"
-                android:padding="10dp"
                 android:textSize="20sp"
 
                 app:layout_constraintStart_toStartOf="@id/search_pannel_rank10_tv"
-                app:layout_constraintTop_toBottomOf="@id/search_pannel_rank10_tv"
-                />
+                app:layout_constraintTop_toBottomOf="@id/search_pannel_rank10_tv" />
+
             <TextView
                 android:id="@+id/search_pannel_rank12_tv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:padding="10dp"
                 android:text="12"
                 android:textColor="@color/flo"
-                android:padding="10dp"
                 android:textSize="20sp"
 
                 app:layout_constraintStart_toStartOf="@id/search_pannel_rank11_tv"
-                app:layout_constraintTop_toBottomOf="@id/search_pannel_rank11_tv"
-                />
+                app:layout_constraintTop_toBottomOf="@id/search_pannel_rank11_tv" />
+
             <TextView
                 android:id="@+id/search_pannel_rank13_tv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:padding="10dp"
                 android:text="13"
                 android:textColor="@color/flo"
-                android:padding="10dp"
                 android:textSize="20sp"
 
                 app:layout_constraintStart_toStartOf="@id/search_pannel_rank12_tv"
-                app:layout_constraintTop_toBottomOf="@id/search_pannel_rank12_tv"
-                />
-            <TextView
-            android:id="@+id/search_pannel_rank14_tv"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="14"
-            android:textColor="@color/flo"
-            android:padding="10dp"
-            android:textSize="20sp"
+                app:layout_constraintTop_toBottomOf="@id/search_pannel_rank12_tv" />
 
-            app:layout_constraintStart_toStartOf="@id/search_pannel_rank13_tv"
-            app:layout_constraintTop_toBottomOf="@id/search_pannel_rank13_tv"
-            />
+            <TextView
+                android:id="@+id/search_pannel_rank14_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="14"
+                android:textColor="@color/flo"
+                android:textSize="20sp"
+
+                app:layout_constraintStart_toStartOf="@id/search_pannel_rank13_tv"
+                app:layout_constraintTop_toBottomOf="@id/search_pannel_rank13_tv" />
+
             <TextView
                 android:id="@+id/search_pannel_rank15_tv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:padding="10dp"
                 android:text="15"
                 android:textColor="@color/flo"
-                android:padding="10dp"
                 android:textSize="20sp"
 
                 app:layout_constraintStart_toStartOf="@id/search_pannel_rank14_tv"
-                app:layout_constraintTop_toBottomOf="@id/search_pannel_rank14_tv"
-                />
-
+                app:layout_constraintTop_toBottomOf="@id/search_pannel_rank14_tv" />
             <TextView
                 android:id="@+id/search_pannel_keyword1_tv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="기염동 그랜드마스터급 실력인듯"
+                android:text="칼바람 마렵다"
                 android:textColor="@color/black"
 
-                app:layout_constraintStart_toEndOf="@id/search_pannel_rank1_tv"
-                app:layout_constraintTop_toTopOf="@id/search_pannel_rank1_tv"
                 app:layout_constraintBottom_toBottomOf="@id/search_pannel_rank1_tv"
-                />
+                app:layout_constraintStart_toEndOf="@id/search_pannel_rank1_tv"
+                app:layout_constraintTop_toTopOf="@id/search_pannel_rank1_tv" />
+
             <TextView
                 android:id="@+id/search_pannel_keyword2_tv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="아님 말고"
+                android:text="ㄹㅇ..."
                 android:textColor="@color/black"
 
-                app:layout_constraintStart_toEndOf="@id/search_pannel_rank2_tv"
-                app:layout_constraintTop_toTopOf="@id/search_pannel_rank2_tv"
                 app:layout_constraintBottom_toBottomOf="@id/search_pannel_rank2_tv"
-                />
+                app:layout_constraintStart_toEndOf="@id/search_pannel_rank2_tv"
+                app:layout_constraintTop_toTopOf="@id/search_pannel_rank2_tv" />
+
             <TextView
                 android:id="@+id/search_pannel_keyword3_tv"
                 android:layout_width="wrap_content"
@@ -301,10 +299,10 @@
                 android:text="스물다섯 스물하나 OST"
                 android:textColor="@color/black"
 
-                app:layout_constraintStart_toEndOf="@id/search_pannel_rank3_tv"
-                app:layout_constraintTop_toTopOf="@id/search_pannel_rank3_tv"
                 app:layout_constraintBottom_toBottomOf="@id/search_pannel_rank3_tv"
-                />
+                app:layout_constraintStart_toEndOf="@id/search_pannel_rank3_tv"
+                app:layout_constraintTop_toTopOf="@id/search_pannel_rank3_tv" />
+
             <TextView
                 android:id="@+id/search_pannel_keyword4_tv"
                 android:layout_width="wrap_content"
@@ -312,10 +310,10 @@
                 android:text="아이유"
                 android:textColor="@color/black"
 
-                app:layout_constraintStart_toEndOf="@id/search_pannel_rank4_tv"
-                app:layout_constraintTop_toTopOf="@id/search_pannel_rank4_tv"
                 app:layout_constraintBottom_toBottomOf="@id/search_pannel_rank4_tv"
-                />
+                app:layout_constraintStart_toEndOf="@id/search_pannel_rank4_tv"
+                app:layout_constraintTop_toTopOf="@id/search_pannel_rank4_tv" />
+
             <TextView
                 android:id="@+id/search_pannel_keyword5_tv"
                 android:layout_width="wrap_content"
@@ -323,10 +321,10 @@
                 android:text="레드벨벳"
                 android:textColor="@color/black"
 
-                app:layout_constraintStart_toEndOf="@id/search_pannel_rank5_tv"
-                app:layout_constraintTop_toTopOf="@id/search_pannel_rank5_tv"
                 app:layout_constraintBottom_toBottomOf="@id/search_pannel_rank5_tv"
-                />
+                app:layout_constraintStart_toEndOf="@id/search_pannel_rank5_tv"
+                app:layout_constraintTop_toTopOf="@id/search_pannel_rank5_tv" />
+
             <TextView
                 android:id="@+id/search_pannel_keyword6_tv"
                 android:layout_width="wrap_content"
@@ -334,10 +332,10 @@
                 android:text="멜로망스"
                 android:textColor="@color/black"
 
-                app:layout_constraintStart_toEndOf="@id/search_pannel_rank6_tv"
-                app:layout_constraintTop_toTopOf="@id/search_pannel_rank6_tv"
                 app:layout_constraintBottom_toBottomOf="@id/search_pannel_rank6_tv"
-                />
+                app:layout_constraintStart_toEndOf="@id/search_pannel_rank6_tv"
+                app:layout_constraintTop_toTopOf="@id/search_pannel_rank6_tv" />
+
             <TextView
                 android:id="@+id/search_pannel_keyword7_tv"
                 android:layout_width="wrap_content"
@@ -345,10 +343,10 @@
                 android:text="어 느새 부터 힙 합은"
                 android:textColor="@color/black"
 
-                app:layout_constraintStart_toEndOf="@id/search_pannel_rank7_tv"
-                app:layout_constraintTop_toTopOf="@id/search_pannel_rank7_tv"
                 app:layout_constraintBottom_toBottomOf="@id/search_pannel_rank7_tv"
-                />
+                app:layout_constraintStart_toEndOf="@id/search_pannel_rank7_tv"
+                app:layout_constraintTop_toTopOf="@id/search_pannel_rank7_tv" />
+
             <TextView
                 android:id="@+id/search_pannel_keyword8_tv"
                 android:layout_width="wrap_content"
@@ -356,10 +354,10 @@
                 android:text="이찬혁"
                 android:textColor="@color/black"
 
-                app:layout_constraintStart_toEndOf="@id/search_pannel_rank8_tv"
-                app:layout_constraintTop_toTopOf="@id/search_pannel_rank8_tv"
                 app:layout_constraintBottom_toBottomOf="@id/search_pannel_rank8_tv"
-                />
+                app:layout_constraintStart_toEndOf="@id/search_pannel_rank8_tv"
+                app:layout_constraintTop_toTopOf="@id/search_pannel_rank8_tv" />
+
             <TextView
                 android:id="@+id/search_pannel_keyword9_tv"
                 android:layout_width="wrap_content"
@@ -367,10 +365,10 @@
                 android:text="국힙 원탑"
                 android:textColor="@color/black"
 
-                app:layout_constraintStart_toEndOf="@id/search_pannel_rank9_tv"
-                app:layout_constraintTop_toTopOf="@id/search_pannel_rank9_tv"
                 app:layout_constraintBottom_toBottomOf="@id/search_pannel_rank9_tv"
-                />
+                app:layout_constraintStart_toEndOf="@id/search_pannel_rank9_tv"
+                app:layout_constraintTop_toTopOf="@id/search_pannel_rank9_tv" />
+
             <TextView
                 android:id="@+id/search_pannel_keyword10_tv"
                 android:layout_width="wrap_content"
@@ -378,10 +376,10 @@
                 android:text="수현이"
                 android:textColor="@color/black"
 
-                app:layout_constraintStart_toEndOf="@id/search_pannel_rank10_tv"
-                app:layout_constraintTop_toTopOf="@id/search_pannel_rank10_tv"
                 app:layout_constraintBottom_toBottomOf="@id/search_pannel_rank10_tv"
-                />
+                app:layout_constraintStart_toEndOf="@id/search_pannel_rank10_tv"
+                app:layout_constraintTop_toTopOf="@id/search_pannel_rank10_tv" />
+
             <TextView
                 android:id="@+id/search_pannel_keyword11_tv"
                 android:layout_width="wrap_content"
@@ -389,10 +387,10 @@
                 android:text="고생한다"
                 android:textColor="@color/black"
 
-                app:layout_constraintStart_toEndOf="@id/search_pannel_rank11_tv"
-                app:layout_constraintTop_toTopOf="@id/search_pannel_rank11_tv"
                 app:layout_constraintBottom_toBottomOf="@id/search_pannel_rank11_tv"
-                />
+                app:layout_constraintStart_toEndOf="@id/search_pannel_rank11_tv"
+                app:layout_constraintTop_toTopOf="@id/search_pannel_rank11_tv" />
+
             <TextView
                 android:id="@+id/search_pannel_keyword12_tv"
                 android:layout_width="wrap_content"
@@ -400,10 +398,10 @@
                 android:text="기염동"
                 android:textColor="@color/black"
 
-                app:layout_constraintStart_toEndOf="@id/search_pannel_rank12_tv"
-                app:layout_constraintTop_toTopOf="@id/search_pannel_rank12_tv"
                 app:layout_constraintBottom_toBottomOf="@id/search_pannel_rank12_tv"
-                />
+                app:layout_constraintStart_toEndOf="@id/search_pannel_rank12_tv"
+                app:layout_constraintTop_toTopOf="@id/search_pannel_rank12_tv" />
+
             <TextView
                 android:id="@+id/search_pannel_keyword13_tv"
                 android:layout_width="wrap_content"
@@ -411,10 +409,10 @@
                 android:text="커염동"
                 android:textColor="@color/black"
 
-                app:layout_constraintStart_toEndOf="@id/search_pannel_rank13_tv"
-                app:layout_constraintTop_toTopOf="@id/search_pannel_rank13_tv"
                 app:layout_constraintBottom_toBottomOf="@id/search_pannel_rank13_tv"
-                />
+                app:layout_constraintStart_toEndOf="@id/search_pannel_rank13_tv"
+                app:layout_constraintTop_toTopOf="@id/search_pannel_rank13_tv" />
+
             <TextView
                 android:id="@+id/search_pannel_keyword14_tv"
                 android:layout_width="wrap_content"
@@ -422,10 +420,10 @@
                 android:text="띵띵"
                 android:textColor="@color/black"
 
-                app:layout_constraintStart_toEndOf="@id/search_pannel_rank14_tv"
-                app:layout_constraintTop_toTopOf="@id/search_pannel_rank14_tv"
                 app:layout_constraintBottom_toBottomOf="@id/search_pannel_rank14_tv"
-                />
+                app:layout_constraintStart_toEndOf="@id/search_pannel_rank14_tv"
+                app:layout_constraintTop_toTopOf="@id/search_pannel_rank14_tv" />
+
             <TextView
                 android:id="@+id/search_pannel_keyword15_tv"
                 android:layout_width="wrap_content"
@@ -433,35 +431,9 @@
                 android:text="이제 그만해"
                 android:textColor="@color/black"
 
-                app:layout_constraintStart_toEndOf="@id/search_pannel_rank15_tv"
-                app:layout_constraintTop_toTopOf="@id/search_pannel_rank15_tv"
                 app:layout_constraintBottom_toBottomOf="@id/search_pannel_rank15_tv"
-                />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                app:layout_constraintStart_toEndOf="@id/search_pannel_rank15_tv"
+                app:layout_constraintTop_toTopOf="@id/search_pannel_rank15_tv" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
