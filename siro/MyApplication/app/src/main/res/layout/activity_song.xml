@@ -142,17 +142,36 @@
         app:layout_constraintTop_toBottomOf="@id/song_lyrics_tv"
         tools:ignore="TouchTargetSizeCheck" />
 
-    <LinearLayout
-        android:id="@+id/song_play_bar"
+<!--    <LinearLayout-->
+<!--        android:id="@+id/song_play_bar"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="3dp"-->
+<!--        android:background="@color/back_color"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_marginStart="20dp"-->
+<!--        android:layout_marginEnd="20dp"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/song_player_unlike_ib"-->
+<!--        android:orientation="horizontal">-->
+<!--    </LinearLayout>-->
+
+    <SeekBar
+        android:id="@+id/song_progress_sb"
         android:layout_width="match_parent"
-        android:layout_height="3dp"
-        android:background="@color/back_color"
-        android:layout_marginTop="20dp"
+        android:layout_height="10dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
-        app:layout_constraintTop_toBottomOf="@id/song_player_unlike_ib"
-        android:orientation="horizontal">
-    </LinearLayout>
+        android:layout_marginBottom="20dp"
+        android:background="@null"
+        android:paddingStart="0dp"
+        android:paddingEnd="0dp"
+        android:progress="0"
+        android:progressBackgroundTint="@color/song_player_bg"
+        android:progressTint="@color/song_player"
+        android:thumb="@color/transparent"
+        android:max="100000"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/song_my_like_ib"/>
 
     <TextView
         android:id="@+id/song_start_second_tv"
@@ -161,7 +180,8 @@
         android:text="00:00"
         android:layout_marginStart="20dp"
         android:layout_marginTop="5dp"
-        app:layout_constraintTop_toBottomOf="@id/song_play_bar"
+        android:textColor="@color/song_player"
+        app:layout_constraintTop_toBottomOf="@id/song_progress_sb"
         app:layout_constraintStart_toStartOf="parent"/>
 
     <TextView
@@ -171,7 +191,7 @@
         android:text="03:00"
         android:layout_marginEnd="20dp"
         android:layout_marginTop="5dp"
-        app:layout_constraintTop_toBottomOf="@id/song_play_bar"
+        app:layout_constraintTop_toBottomOf="@id/song_progress_sb"
         app:layout_constraintEnd_toEndOf="parent"/>
 
     <ImageButton

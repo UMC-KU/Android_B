@@ -31,6 +31,13 @@ class HomeFragment : Fragment() {
         binding.homeBannerVp.adapter = bannerAdapter
         binding.homeBannerVp.orientation = ViewPager2.ORIENTATION_HORIZONTAL
 
+//        var homeBanneralbumList = arrayListOf<Int>()
+//
+//        Thread{
+//            for(image in homeBanneralbumList){
+//                binding.
+//            }
+//        }
         return binding.root
     }
 }
