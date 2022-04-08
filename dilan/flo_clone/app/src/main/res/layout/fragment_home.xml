@@ -27,7 +27,6 @@
             app:dotsSize="12dp"
             app:dotsSpacing="6dp"
             app:dotsStrokeColor="@color/gray_color"
-            app:dotsStrokeWidth="2dp"
             app:layout_constraintBottom_toTopOf="@+id/home_panel_today_new_song_tv"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
