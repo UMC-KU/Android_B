@@ -6,8 +6,8 @@ plugins {
 android {
     compileSdk 31
 
-    viewBinding {
-        enabled true
+    buildFeatures{
+        viewBinding true
     }
 
     defaultConfig {
@@ -43,6 +43,7 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
     implementation 'com.tbuonomo:dotsindicator:4.2'
     implementation 'com.google.code.gson:gson:2.8.7'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
 
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'

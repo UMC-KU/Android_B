@@ -21,11 +21,11 @@
         <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/activity_song.xml" value="0.36822916666666666" />
         <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/activity_splash.xml" value="0.36822916666666666" />
-        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/fragment_album.xml" value="0.17884130982367757" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/fragment_album.xml" value="0.25" />
         <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/fragment_banner.xml" value="0.365036231884058" />
         <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/fragment_detail.xml" value="0.264" />
         <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/fragment_home.xml" value="0.25" />
-        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/fragment_locker.xml" value="0.36822916666666666" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/fragment_locker.xml" value="0.25842696629213485" />
         <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/fragment_look.xml" value="0.36822916666666666" />
         <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/fragment_panel.xml" value="0.20606884057971014" />
         <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/fragment_panel_1.xml" value="0.2" />
@@ -33,10 +33,13 @@
         <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/fragment_panel_3.xml" value="0.36822916666666666" />
         <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/fragment_panel_4.xml" value="0.36822916666666666" />
         <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/fragment_song.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/fragment_storage.xml" value="0.3536458333333333" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/fragment_stored_song_file.xml" value="0.36822916666666666" />
         <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/fragment_video.xml" value="0.264" />
         <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/item_album.xml" value="0.36822916666666666" />
         <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/item_album2.xml" value="0.20606884057971014" />
         <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/item_podcast.xml" value="0.36822916666666666" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/item_storage_song.xml" value="0.33" />
         <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/menu/bottom_nav_menu.xml" value="0.264" />
         <entry key="..\:/AndroidStudioProjects/UMC_Android/flo_clone/app/src/main/res/layout/activity_main.xml" value="0.26313405797101447" />
         <entry key="..\:/AndroidStudioProjects/UMC_Android/flo_clone/app/src/main/res/layout/fragment_home.xml" value="0.264" />
