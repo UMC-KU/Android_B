@@ -94,7 +94,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
-        android:text="좋은 날 좋은 꿈"
+        android:text="좋은 밤 좋은 꿈"
         android:textColor="@color/white"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@id/home_panel_album_singer_tv"

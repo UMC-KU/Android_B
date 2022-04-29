@@ -6,21 +6,22 @@ import android.util.Log
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.edit
 import com.example.flo.databinding.ActivitySongBinding
+import com.google.gson.Gson
 
 class SongActivity : AppCompatActivity() {
 
     lateinit var binding: ActivitySongBinding
     lateinit var song: Song
     lateinit var timer: Timer
-    var mediaPlayer: MediaPlayer? = null
-
+    private var mediaPlayer: MediaPlayer? = null
+    private var gson = Gson()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivitySongBinding.inflate(layoutInflater)
-        setContentView(binding.root) //XML내용을 가져와서 마음껏 쓰게 하는 것. 괄호 안에 XML의 ID를 넣어주어야 함.
-
+        setContentView(binding.root)
         initSong()
         setPlayer(song)
 
@@ -30,15 +31,12 @@ class SongActivity : AppCompatActivity() {
 
         binding.songPlayBtnIv.setOnClickListener {
             setPlayerStatus(true)
-//            if (mediaPlayer == null) {
-//                mediaPlayer = MediaPlayer.create(this, R.raw.music_lilac)
-//            }
-//            mediaPlayer?.start()
+
         }
 
         binding.songPauseBtnIv.setOnClickListener {
             setPlayerStatus(false)
-//            mediaPlayer?.pause()
+
         }
 
         if (intent.hasExtra("title") && intent.hasExtra("singer")) {
@@ -65,10 +63,27 @@ class SongActivity : AppCompatActivity() {
         }
     }
 
+    override fun onPause() {
+        super.onPause()
+        setPlayerStatus(false)
+        song.second = ((binding.songMusicProgressSb.progress * song.playTime) / 100) / 1000
+        val sharedPreferences = getSharedPreferences("song", MODE_PRIVATE)
+        val editor = sharedPreferences.edit()
+        val songJson = gson.toJson(song)
+        editor.putString("songData", songJson)
+        editor.apply()
+
+
+
+    }
+
     override fun onDestroy() {
         super.onDestroy()
         timer.interrupt()
+        mediaPlayer?.release()
+        mediaPlayer = null
     }
+
     // song data class 초기화, 타이머 시작
     private fun initSong() {
         if (intent.hasExtra("title") && intent.hasExtra("singer")) {
@@ -78,6 +93,7 @@ class SongActivity : AppCompatActivity() {
                 intent.getIntExtra("second", 0),
                 intent.getIntExtra("playTime", 0),
                 intent.getBooleanExtra("isPlaying", false),
+                intent.getStringExtra("music")!!
             )
         }
 
@@ -92,6 +108,8 @@ class SongActivity : AppCompatActivity() {
         binding.songMusicEndTimeTv.text =
             String.format("%02d:%02d", song.playTime / 60, song.playTime % 60)
         binding.songMusicProgressSb.progress = (song.second * 1000 / song.playTime)
+        val music = resources.getIdentifier(song.music, "raw", this.packageName)
+        mediaPlayer = MediaPlayer.create(this, music)
 
         setPlayerStatus(song.isPlaying)
     }
@@ -117,12 +135,15 @@ class SongActivity : AppCompatActivity() {
         if (isPlaying) {
             binding.songPlayBtnIv.visibility = View.GONE
             binding.songPauseBtnIv.visibility = View.VISIBLE
+            mediaPlayer?.start()
         } else {
             binding.songPlayBtnIv.visibility = View.VISIBLE
             binding.songPauseBtnIv.visibility = View.GONE
+            if (mediaPlayer?.isPlaying == true) {
+                mediaPlayer?.pause()
+            }
         }
     }
-
 
 
     private fun setSongLike(isLike: Boolean) {
@@ -181,7 +202,7 @@ class SongActivity : AppCompatActivity() {
                     }
                 }
             } catch (e: InterruptedException) {
-                Log.d("Song","쓰레드가 죽었습니다. ${e.message}")
+                Log.d("Song", "쓰레드가 죽었습니다. ${e.message}")
             }
         }
     }
