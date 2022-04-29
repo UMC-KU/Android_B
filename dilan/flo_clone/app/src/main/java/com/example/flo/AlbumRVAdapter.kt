@@ -23,6 +23,7 @@ class AlbumRVAdapter(private var albumList: ArrayList<Album>) :
         notifyDataSetChanged()
     }
 
+
     fun removeItem(position: Int) {
         albumList.removeAt(position)
         notifyDataSetChanged()
