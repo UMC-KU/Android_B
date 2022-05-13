@@ -10,7 +10,7 @@
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="60dp"
         android:background="@color/white"
         android:scaleType="fitXY"
         android:src="@drawable/btn_player_setting"
@@ -89,8 +89,8 @@
 
     <ImageView
         android:id="@+id/song_album_art_iv"
-        android:layout_width="280dp"
-        android:layout_height="280dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:layout_marginTop="20dp"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="parent"
@@ -137,11 +137,16 @@
             android:layout_height="25dp"
             android:src="@drawable/ic_my_like_off" />
 
+
+
         <ImageView
+            android:id="@+id/song_unlike_iv"
             android:layout_width="25dp"
             android:layout_height="25dp"
             android:layout_marginStart="50dp"
             android:src="@drawable/btn_player_unlike_off" />
+
+
     </LinearLayout>
 
 
@@ -152,6 +157,12 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
+        android:background="@null"
+        android:paddingStart="0dp"
+        android:paddingEnd="0dp"
+        android:progress="0"
+        android:backgroundTint="@color/song_player_bg"
+        android:progressTint="@color/song_player"
         android:max="100000"
         android:thumb="@color/transparent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -191,7 +202,7 @@
 
 
         <ImageView
-            android:id="@+id/song_repeat_btn_iv"
+            android:id="@+id/song_repeat_btn_off_iv"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:scaleType="fitXY"

@@ -3,6 +3,49 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/drawable-v24/textview_background_radius.xml" value="0.2385" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/drawable/btm_color_selector.xml" value="0.129" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/drawable/button_background_black_color.xml" value="0.129" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/drawable/button_background_flo_color.xml" value="0.129" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/drawable/button_background_gray_color.xml" value="0.129" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/drawable/button_background_white_color.xml" value="0.129" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/drawable/main_btm_color_selector.xml" value="0.129" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/drawable/main_btm_home_selector.xml" value="0.129" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/drawable/main_btm_look_selector.xml" value="0.129" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/drawable/main_btm_my_selector.xml" value="0.129" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/drawable/main_btm_search_selector.xml" value="0.129" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/drawable/splash.xml" value="0.129" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/drawable/tab_selector.xml" value="0.129" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/drawable/textview_background_radius.xml" value="0.2385" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout-v23/fragment_home.xml" value="0.20606884057971014" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/activity_login.xml" value="0.36822916666666666" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/activity_signup.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/activity_song.xml" value="0.36822916666666666" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/activity_splash.xml" value="0.36822916666666666" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/fragment_album.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/fragment_banner.xml" value="0.365036231884058" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/fragment_detail.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/fragment_locker.xml" value="0.25842696629213485" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/fragment_locker_savedsong.xml" value="0.36822916666666666" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/fragment_look.xml" value="0.36822916666666666" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/fragment_panel.xml" value="0.20606884057971014" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/fragment_panel_1.xml" value="0.2" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/fragment_panel_2.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/fragment_panel_3.xml" value="0.36822916666666666" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/fragment_panel_4.xml" value="0.36822916666666666" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/fragment_saved_album.xml" value="0.1828125" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/fragment_song.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/fragment_storage.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/fragment_stored_song_file.xml" value="0.36822916666666666" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/fragment_video.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/item_album.xml" value="0.36822916666666666" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/item_album2.xml" value="0.20606884057971014" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/item_locker_album.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/item_podcast.xml" value="0.36822916666666666" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/layout/item_storage_song.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjects/Android_B/dilan/flo_clone/app/src/main/res/menu/bottom_nav_menu.xml" value="0.264" />
         <entry key="..\:/AndroidStudioProjects/UMC_Android/flo_clone/app/src/main/res/layout/activity_main.xml" value="0.26313405797101447" />
         <entry key="..\:/AndroidStudioProjects/UMC_Android/flo_clone/app/src/main/res/layout/fragment_home.xml" value="0.264" />
         <entry key="..\:/AndroidStudioProjects/UMC_Android/flo_clone/app/src/main/res/layout/fragment_locker.xml" value="0.26313405797101447" />
@@ -19,6 +62,9 @@
         <entry key="..\:/Users/jungwoo/AndroidStudioProjects/FLO/app/src/main/res/layout/fragment_look.xml" value="0.1" />
         <entry key="..\:/Users/jungwoo/AndroidStudioProjects/FLO/app/src/main/res/layout/fragment_search.xml" value="0.1" />
         <entry key="..\:/Users/jungwoo/AndroidStudioProjects/FLO/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
+        <entry key="..\:/Users/wkdxo/Desktop/Study/Android_B/Android_B/dilan/flo_clone/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/wkdxo/Desktop/Study/Android_B/Android_B/dilan/flo_clone/app/src/main/res/layout/activity_song.xml" value="0.4714285714285714" />
+        <entry key="..\:/Users/wkdxo/Desktop/Study/Android_B/Android_B/dilan/flo_clone/app/src/main/res/layout/fragment_album.xml" value="0.36256410256410254" />
         <entry key="..\:/Users/wkdxo/Desktop/Study/Android_B/dilan/flo_clone/app/src/main/res/drawable-v24/textview_background_select_color_radius.xml" value="0.2855" />
         <entry key="..\:/Users/wkdxo/Desktop/Study/Android_B/dilan/flo_clone/app/src/main/res/drawable/button_background_flo_color.xml" value="0.342" />
         <entry key="..\:/Users/wkdxo/Desktop/Study/Android_B/dilan/flo_clone/app/src/main/res/layout/activity_main.xml" value="0.25" />
