@@ -89,8 +89,8 @@
 
     <ImageView
         android:id="@+id/song_album_art_iv"
-        android:layout_width="280dp"
-        android:layout_height="280dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:layout_marginTop="20dp"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="parent"

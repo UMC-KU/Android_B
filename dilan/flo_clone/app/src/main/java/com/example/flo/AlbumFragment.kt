@@ -1,6 +1,7 @@
 package com.example.flo
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -94,6 +95,7 @@ class AlbumFragment : Fragment() {
                 binding.albumLikeIv.setImageResource(R.drawable.ic_my_like_on)
                 likeAlbum(userId, album.id)
             }
+            isLiked = !isLiked
         }
     }
 

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        android:orientation="vertical"
+        android:overScrollMode="never"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/detail_album_title_menu_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="앨범명"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="20dp"
+                />
+
+            <TextView
+                android:id="@+id/detail_album_title_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Break My Heart Again"
+                android:textColor="@color/gray_color"
+                android:textSize="16sp"
+                app:layout_constraintStart_toEndOf="@id/detail_album_title_menu_tv"
+                app:layout_constraintTop_toTopOf="@id/detail_album_title_menu_tv" />
+
+            <TextView
+                android:id="@+id/detail_artist_menu_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="아티스트"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+
+                app:layout_constraintStart_toStartOf="@id/detail_album_title_menu_tv"
+                app:layout_constraintTop_toBottomOf="@id/detail_album_title_menu_tv" />
+
+            <TextView
+                android:id="@+id/detail_artist_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Keshi"
+                android:textColor="@color/gray_color"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="@id/detail_album_title_tv"
+                app:layout_constraintTop_toBottomOf="@id/detail_album_title_tv" />
+
+            <TextView
+                android:id="@+id/detail_company_menu_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="발매사"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@id/detail_album_title_menu_tv"
+                app:layout_constraintTop_toBottomOf="@id/detail_artist_menu_tv" />
+
+            <TextView
+                android:id="@+id/detail_company_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="뭐가 문제야"
+                android:textColor="@color/gray_color"
+                android:textSize="16sp"
+
+                app:layout_constraintStart_toStartOf="@id/detail_artist_tv"
+                app:layout_constraintTop_toBottomOf="@id/detail_artist_tv" />
+
+            <TextView
+                android:id="@+id/detail_album_info_menu_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="앨범 소개"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                app:layout_constraintStart_toStartOf="@id/detail_album_title_menu_tv"
+                app:layout_constraintTop_toBottomOf="@id/detail_company_tv" />
+
+            <TextView
+                android:id="@+id/detail_album_info_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="어쩌구 저쩌구.... 아무말.....어쩌구 저쩌구.... 아무말.....화가 난다 이말이예요.........."
+                android:textColor="@color/gray_color"
+                android:textSize="16sp"
+                android:layout_marginTop="5dp"
+                app:layout_constraintStart_toStartOf="@id/detail_album_title_menu_tv"
+                app:layout_constraintTop_toBottomOf="@id/detail_album_info_menu_tv"
+                android:layout_margin="10dp"
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
