@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        android:orientation="vertical"
+        android:overScrollMode="never"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/fragment_video_seq_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="최신순 ▼"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <ImageView
+                android:id="@+id/fragment_video_mv1_iv"
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:src="@drawable/img_video_exp"
+                android:layout_marginTop="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/fragment_video_seq_tv"/>
+
+            <TextView
+                android:id="@+id/fragment_video_mvname1_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="[MV] Coin"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/fragment_video_mv1_iv"
+                android:layout_marginStart="10dp"/>
+
+            <TextView
+                android:id="@+id/fragment_video_mv1_singer_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="아이유 (IU) | 2021.03.26"
+                android:textSize="15sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/fragment_video_mvname1_tv"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="3dp"/>
+
+            <ImageView
+                android:id="@+id/fragment_video_mv2_iv"
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:src="@drawable/img_video_exp"
+                android:layout_marginTop="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/fragment_video_mv1_singer_tv"/>
+
+            <TextView
+                android:id="@+id/fragment_video_mvname2_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="[MV] 라일락 (LILAC)"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/fragment_video_mv2_iv"
+                android:layout_marginStart="10dp"/>
+
+            <TextView
+                android:id="@+id/fragment_video_mv2_singer_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="아이유 (IU) | 2021.03.26"
+                android:textSize="15sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/fragment_video_mvname2_tv"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="3dp"/>
+
+            <ImageView
+                android:id="@+id/fragment_video_mv3_iv"
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:src="@drawable/img_video_exp"
+                android:layout_marginTop="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/fragment_video_mv2_singer_tv"/>
+
+            <TextView
+                android:id="@+id/fragment_video_mvname3_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="[MV] 라일락 (LILAC)"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/fragment_video_mv3_iv"
+                android:layout_marginStart="10dp"/>
+
+            <TextView
+                android:id="@+id/fragment_video_mv3_singer_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="아이유 (IU) | 2021.03.26"
+                android:textSize="15sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/fragment_video_mvname3_tv"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="3dp"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
