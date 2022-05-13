@@ -20,12 +20,24 @@
         <entry key="..\:/10. workspace/UMC_Android/MyApplication/app/src/main/res/drawable/button_background_flo_color.xml" value="0.205" />
         <entry key="..\:/10. workspace/UMC_Android/MyApplication/app/src/main/res/drawable/layout_background.xml" value="0.221" />
         <entry key="..\:/10. workspace/UMC_Android/MyApplication/app/src/main/res/drawable/splash.xml" value="0.198" />
+        <entry key="..\:/10. workspace/UMC_Android/MyApplication/app/src/main/res/layout/activity_login.xml" value="0.25364583333333335" />
         <entry key="..\:/10. workspace/UMC_Android/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/10. workspace/UMC_Android/MyApplication/app/src/main/res/layout/activity_signup.xml" value="0.25364583333333335" />
         <entry key="..\:/10. workspace/UMC_Android/MyApplication/app/src/main/res/layout/activity_song.xml" value="0.264" />
         <entry key="..\:/10. workspace/UMC_Android/MyApplication/app/src/main/res/layout/activity_splash.xml" value="0.19947916666666668" />
         <entry key="..\:/10. workspace/UMC_Android/MyApplication/app/src/main/res/layout/fragment_album.xml" value="0.264" />
+        <entry key="..\:/10. workspace/UMC_Android/MyApplication/app/src/main/res/layout/fragment_banner.xml" value="0.15307971014492755" />
+        <entry key="..\:/10. workspace/UMC_Android/MyApplication/app/src/main/res/layout/fragment_detail.xml" value="0.15307971014492755" />
         <entry key="..\:/10. workspace/UMC_Android/MyApplication/app/src/main/res/layout/fragment_home.xml" value="0.22853120600656968" />
         <entry key="..\:/10. workspace/UMC_Android/MyApplication/app/src/main/res/layout/fragment_locker.xml" value="0.22826086956521738" />
+        <entry key="..\:/10. workspace/UMC_Android/MyApplication/app/src/main/res/layout/fragment_locker_savedalbum.xml" value="0.13333333333333333" />
+        <entry key="..\:/10. workspace/UMC_Android/MyApplication/app/src/main/res/layout/fragment_look.xml" value="0.25364583333333335" />
+        <entry key="..\:/10. workspace/UMC_Android/MyApplication/app/src/main/res/layout/fragment_savedsong.xml" value="0.2" />
+        <entry key="..\:/10. workspace/UMC_Android/MyApplication/app/src/main/res/layout/fragment_search.xml" value="0.25364583333333335" />
+        <entry key="..\:/10. workspace/UMC_Android/MyApplication/app/src/main/res/layout/fragment_songfile.xml" value="0.15307971014492755" />
+        <entry key="..\:/10. workspace/UMC_Android/MyApplication/app/src/main/res/layout/item_album.xml" value="0.25364583333333335" />
+        <entry key="..\:/10. workspace/UMC_Android/MyApplication/app/src/main/res/layout/item_locker_song.xml" value="0.25364583333333335" />
+        <entry key="..\:/10. workspace/UMC_Android/MyApplication/app/src/main/res/layout/item_save_songlist.xml" value="0.25364583333333335" />
       </map>
     </option>
   </component>
